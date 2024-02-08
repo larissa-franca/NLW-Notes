@@ -1,4 +1,5 @@
 import logo from "./assets/logo-nlw-expert.svg";
+import { NoteCard } from "./components/note-card";
 
 
 export function App() {
@@ -23,26 +24,11 @@ export function App() {
             </p>
           </div>
 
-          <div className="rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative">
-            <span className="text-sm font-medium text-slate-200">Há 2 dias</span>
-            <p className="text-sm leading-6 text-slate-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem debitis hic praesentium officia dolore fugiat id, amet neque esse commodi quis maiores consequuntur suscipit possimus harum beatae laboriosam deleniti?
-            </p>
-            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none"></div>
-          </div>
-
-          <div className="rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative">
-            <span className="text-sm font-medium text-slate-200">Há 4 dias</span>
-            <p className="text-sm leading-6 text-slate-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quo natus porro asperiores reiciendis nihil veniam tenetur in fugit cumque! Expedita provident deserunt, laborum magnam cum sequi consequuntur delectus similique?
-            </p>
-            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none"></div>
-          </div> 
-
-          <div className="rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative">
-            <span className="text-sm font-medium text-slate-200">Há 4 dias</span>
-            <p className="text-sm leading-6 text-slate-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quo natus porro asperiores reiciendis nihil veniam tenetur in fugit cumque! Expedita provident deserunt, laborum magnam cum sequi consequuntur delectus similique?
-            </p>
-            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none"></div>
-        </div>
+          <NoteCard></NoteCard>
+          <NoteCard></NoteCard>
+          <NoteCard></NoteCard>
+          <NoteCard></NoteCard>
+          <NoteCard></NoteCard>
       </div>
     </div>
    )
