@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "date-fns": "^3.3.1",
-    "lucide-react": "^0.324.0"
+    "lucide-react": "^0.324.0",
+    "sonner": "^1.4.0"
   }
 }
